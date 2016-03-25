@@ -1,0 +1,308 @@
+	body,html{
+		  margin: 0 auto;
+		  padding:0px;
+		}
+	
+	#menubar{
+        	  background-color:darkslategrey;
+         	  max-width:993px;
+		  position:fixed;
+		  top:0px;
+		  left:0px;	
+        	}
+
+	#menu{
+        	padding:0px;
+        	margin-left:992px;
+        	border-radius:15px;
+        	}
+
+	#menu ul{
+        	padding:0px;
+        	margin:0px;
+        	}
+
+	#menu ul li{
+        	    background-color:darkslategrey;
+        	    list-style-type:none;
+         	    width:170px;
+        	    position:relative;
+           	    border:1px solid #ccc;
+        	}	
+
+	#menu ul li a{
+        	     width:170px;
+             	     height:50px;
+        	     color:#fff;
+        	     text-decoration:none;
+        	     display:block;
+          	     line-height:30px;
+        	     font-size:15px;
+        	     text-align:center;
+        	     padding-top:8px;
+        	}
+
+	#menu ul ul{
+        	    position:absolute;
+        	    visibility:hidden;
+        	}
+	#menu ul li:hover ul{
+        	visibility:visible;
+        	margin-left:0px;
+        	margin-top:0px;
+        }
+
+
+	#menu ul li:hover{
+        		background-color:#333333;
+        	}
+
+
+	#menu ul li ul li a:hover{
+        		background-color:#069;
+        	}	
+
+	#menu ul li a:hover{
+			color:#0ff;
+        	}	
+
+	.shadow {
+         	box-shadow:15px 10px 8px grey;
+         	width:500px;
+         	padding:5px;
+         	margin-top:50px;
+         	height:250px;
+         	margin-left:82px;
+         	border:1px solid grey;
+        	}
+
+	.MultiSelect {
+        	list-style-type:none;
+        	border:2px solid grey;
+       	 	width:126px;
+        	height:138px;
+        	padding:10px;
+        	margin-left:9px;
+        	font-size:14px;
+        	overflow:auto;
+        	border-radius:10px;
+                 margin-top:56px;
+         }
+
+.Anchor{
+        text-decoration:none;
+        color:blue;
+        }
+
+
+
+/* Starting CSS Of the Report DropDown */
+.dropbtn {
+    background-color:white;
+    color: gray;
+    padding: 6px;
+    font-size: 13px;
+    border: none;
+    cursor: pointer;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 180px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown:hover .dropbtn {
+    background-color: #c0c0c0;
+}
+/* End of the Drop Down Button of Report */
+.ViewContainer {
+     margin-top: 60px;
+     margin-left: 208px;
+     position: fixed;
+     top:0px;	
+     width: 100%;
+    margin: 0px;
+    padding: 10px 0 0 0;
+    list-style: none;
+    background-color: #111;
+    background-image: linear-gradient(#444, #111);
+    /* border-radius: 50px; */
+    box-shadow: 0 2px 1px #9c9c9c;
+}
+	 
+
+#MostV{
+        font-size:14px;
+        margin-left:0px;
+        padding:1px;
+	border-right:1px solid grey;
+	border-left:1px solid grey;
+        }
+
+#RecentC{
+        font-size:14px;
+        margin-left:14px;
+        padding:1px;
+	border-right:1px solid grey;
+        }
+
+#MostVote{
+        font-size:14px;
+        margin-left:14px;
+        padding:1px;
+	border-right:1px solid grey;
+        }
+.CheckboxList{
+        font-size:14px;
+        margin-left:2px;
+        padding:1px;
+        }
+
+#SearchName{
+        font-size:14px;
+        margin-left:260px;
+        margin-top:2px;
+        padding:3px;
+        }
+.TileContainer{
+                margin-top:-405px;
+                border-radius:10px;
+                margin-left:210px;
+                width:750px;
+                border: 2px solid grey;
+                height:650px;
+}
+
+.NickName {
+        font-size:14px;
+        color:blue;
+        margin-left:59px;
+        margin-top:13px;
+        padding:1px;
+        }
+
+.DateAlign {
+        font-size:12px;
+        margin-left:295px;
+        margin-top:-33px;
+        color:grey;
+        }
+
+.Tile{
+                margin-top:24px;
+                margin-left:40px;
+                width:360px;
+                padding:10px;
+                border-top: 1px solid bisque;
+                border-bottom: 1px solid bisque;
+}
+
+.HitCount{
+                margin-top:0px;
+                margin-left:53px;
+                font-size:13px;
+                color:gray;
+}
+
+.Anchor:hover{
+        background-color:grey;
+         color:white;
+}
+        .Pridection{
+		 margin-top:100px;
+		 margin-left:375px;
+		 padding:0px;
+		 width:350px;
+		 height:115px;
+		 border-top:1px solid bisque; 
+		 border-bottom:1px solid bisque; 
+  		}
+
+	#pridectTextarea{
+			margin-top:20px;
+			margin-left:16px;
+			width:225px;
+			height:40px;
+			padding:4px;
+			}
+	#pridectSelect{
+			margin-top:0px;
+			margin-left:10px;
+			padding:1px;
+			}
+	
+	#pridectButton{
+			margin-top:7px;
+			margin-left:200px;
+                        border-width:1px;
+                        border-style:solid;
+                        border-radius:5px;
+                        padding:2px 3px;
+                        font-size:15px;
+                        color:white;
+                        background-color:blue;
+                        width:55px;
+			}
+			
+	
+	.Filter{
+		margin-top:62px;
+		margin-left:1px;
+		padding:5px;
+		border:1px solid bisque;
+		width:200px;
+		} 
+  
+       #NickNameButton{ 
+			margin-top:15px;
+			margin-left:120px;
+                        border-width:1px;
+                        border-style:solid;
+                        border-radius:5px;
+                        padding:2px 3px;
+                        font-size:15px;
+                        color:white;
+                        background-color:blue;
+                        width:55px;
+                        }
+
+ 	 #txtNickName {
+                        margin-top:10px;
+                        margin-left:10px;
+			width:85px;
+                        padding:1px;
+                        }
+	
+ 	 #txtFromdate {
+                        margin-top:5px;
+                        margin-left:4px;
+			width:129px;
+                        padding:0px;
+                        }
+ 	 #txtTodate {
+                        margin-top:5px;
+                        margin-left:20px;
+			width:129px;
+                        padding:0px;
+                        }

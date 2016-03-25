@@ -1,0 +1,60 @@
+	
+	
+	 .container {
+                        margin-top:125px;
+                        margin-left:220px;
+                        border:1px solid grey;
+                        width:450px;
+			height:264px;
+                       }
+
+	  .LabelText
+			{
+			   margin-top:44px;
+			   margin-left:66px;
+			}
+	.buttons   {
+			margin-top:17px;
+			margin-left:150px;
+		}
+
+	 #SignSubmit {    
+		        margin-top:10px;
+                        border-width:1px;
+                        border-style:solid;
+                        border-radius:5px;
+                        padding:7px 5px;
+                        font-size:15px;
+                        color:white;
+                        background-color:blue;
+                        width:80px;
+                        }
+	 #SignClear {    
+		        margin-top:10px;
+			margin-left:35px;
+                        border-width:1px;
+                        border-style:solid;
+                        border-radius:5px;
+                        padding:7px 5px;
+                        font-size:15px;
+                        color:white;
+                        background-color:blue;
+                        width:80px;
+                        }
+
+	  #SignNickName {
+                        margin-top:10px;
+                        margin-left:20px;
+                        padding:5px;
+                        }
+	  #SignMobile {
+                        margin-top:10px;
+                        margin-left:40px;
+                        padding:5px;
+                        }	
+	  #SignEmail {
+                        margin-top:10px;
+                        margin-left:48px;
+                        padding:5px;
+			}
+

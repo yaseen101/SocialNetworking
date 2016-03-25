@@ -1,0 +1,245 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1.0">
+<link href = "CSS/TemplateHome.css" type = "text/css" rel= "stylesheet" />
+
+<title>Untitled Document</title>
+
+<style>
+.ViewContainer {
+     margin-top: 61px;
+     margin-left: 219px;
+     position: fixed;
+     top:0px;
+
+}
+
+#User{
+        font-size:14px;
+        margin-left:14px;
+        padding:1px;
+        }
+#Category{
+        font-size:14px;
+        margin-left:14px;
+        padding:1px;
+        }
+#Allpost{
+        font-size:14px;
+        margin-left:14px;
+        padding:1px;
+        }
+#Reported{
+        font-size:14px;
+        margin-left:14px;
+        padding:1px;
+        }
+#MostV{
+        font-size:14px;
+        margin-left:14px;
+        padding:1px;
+        }
+
+#RecentC{
+        font-size:14px;
+        margin-left:14px;
+        padding:1px;
+        }
+
+#MostVote{
+        font-size:14px;
+        margin-left:14px;
+        padding:1px;
+        }
+
+#SearchName{
+        font-size:14px;
+        margin-left:37px;
+        margin-top:2px;
+        padding:3px;
+        }
+
+.Filter{
+                margin-top:260px;
+                margin-left:1px;
+                padding:5px;
+                border:1px solid bisque;
+                width:200px;
+                }
+
+.AdminCreateCate{
+             margin-top:-480px;
+             margin-left:249px;
+	     width:329px;
+	     height:60px;
+	     border-top:1px solid bisque;
+	     border-bottom:1px solid bisque;
+	   }
+
+
+.Admintable{
+             margin-top:31px;
+             margin-left:241px;
+             }
+
+#AdminCateTxt {
+    margin-top: 10px;
+    margin-left: 10px;
+    width: 85px;
+    padding: 1px;
+}
+
+#AdminCateAdd{
+                        margin-top:15px;
+                        margin-left:33px;
+                        border-width:1px;
+                        border-style:solid;
+                        border-radius:5px;
+                        padding:2px 3px;
+                        font-size:15px;
+                        color:white;
+                        background-color:blue;
+                        width:55px;
+                        }
+#AdminCateSubmit{
+                        margin-top:15px;
+                        margin-left:120px;
+                        border-width:1px;
+                        border-style:solid;
+                        border-radius:5px;
+                        padding:2px 3px;
+                        font-size:15px;
+                        color:white;
+                        background-color:blue;
+                        width:55px;
+                        }
+.Admincatetable{
+                    margin-top:19px;
+                    margin-left:0px;
+                    padding:5px;
+                        }
+
+table,th, td {
+            border:1px solid black;
+            padding:5px;
+            text-align:center;
+         }
+
+
+</style>
+</head>
+
+		<body>
+			<div id="menubar">
+				<div id="menu">
+					<ul>
+						<li><a href="">Home</a>
+							<ul>
+								<li><a href="">Feedback</a></li>
+								<li><a href="">Recent</a></li>
+								<li><a href="">MyAcount</a></li>
+								<li><a href="">Setting</a></li>
+								<li><a href="">Login</a></li>
+								<li><a href="">SignUp</a></li>
+							</ul><!--sub1 ul tag is closed here-->
+						</li><!--main li tag is closed here-->
+					</ul><!--main ul tag is closed here-->
+				</div>
+			</div>
+				
+			
+				<div class="ViewContainer">
+					<a href ="#" id = "User"  class = "Anchor">User</a>
+					<a href ="#" id = "Category" class = "Anchor">Category</a>
+					<a href ="#" id = "Allpost" class = "Anchor">All Post </a>
+					<a href ="#" id = "MostV"    class = "Anchor">Most Viewed</a>
+					<a href ="#" id = "RecentC"  class = "Anchor">Recent Created </a>
+					<a href ="#" id = "MostVote" class = "Anchor">Most Voted</a>
+					<a href ="#" id = "Reported" class = "Anchor">Reported</a>
+			
+					<input type ="text" id = "SearchName" name ="text1"  placeholder="Keyword/NickName"/> 	
+				</div>
+		      		 <div class ="Filter" >
+
+                                        <label>Nick Name</label>
+                                        <input type ="text" id ="txtNickName" palceholder ="Nickname"/></br>
+                                        <label> Date:</label></br>
+                                        <span>From:</span><input type ="date" id = "txtFromdate"name ="Fromdate" />
+                                        <span>To:</span><input type ="date"   id = "txtTodate" name ="Todate"/>
+                                        <input type ="Button" id ="NickNameButton" value ="Search"/><br>
+                                </div>
+	
+				
+				<div class="MultiSelect">
+					<ul style ="font-size:12px; list-style-type:none; padding:3px 17px;">
+						<li>
+							<input type="checkbox" class = "CheckboxList" value="ALL" Checked/>ALL</li>
+                                                <li>
+                                                        <input type="checkbox" class = "CheckboxList" value="SPORTS" />SPORTS</li>
+                                                <li>
+                                                        <input type="checkbox" class = "CheckboxList" value="CRICKET" />CRICKET</li>
+                                                <li>
+                                                        <input type="checkbox" class = "CheckboxList" value="MOVIES" />MOVIES</li>
+                                                <li>
+                                                        <input type="checkbox" class = "CheckboxList" value="POLITICS" />POLITICS</li>
+                                                <li>
+                                                        <input type="checkbox" class = "CheckboxList" value="NEWS" />NEWS</li>
+                                          </ul>
+                                 </div>
+	
+
+				<div class ="AdminCreateCate">
+					<label>Create Category </label>
+					<input type ="text" id = "AdminCateTxt" placeholder ="New Category"/>
+					<input type ="button" id = "AdminCateAdd" Value ="Add"/></br>
+				</div>
+				<div class ="Admintable">
+					<input type ="button" id ="AdminCateSubmit" name ="Submit" value= "Submit"/>
+					
+					<table class ="Admincatetable">
+						<tr>
+							<th>Categoryid</th>
+							<th>CategoryName</th>
+							<th>Status</th>
+						</tr>
+						<tr>
+							<td>0001</td>
+							<td><a href = "#">Sam</a></td>
+							<td> <select>
+									<option>Active</option>	
+									<option>InActive</option>
+									<option>Pending</option>
+								</select></td>
+						</tr>
+						<tr>
+							<td>0002</td>
+							<td><a href = "#">Sontu</a></td>
+							<td> <select>
+									<option>Active</option>	
+									<option>InActive</option>
+									<option>Pending</option>
+								</select></td>
+						</tr>
+						<tr>
+							<td>0003</td>
+							<td><a href = "#">Pankaj</a></td>
+							<td> <select>
+									<option>Active</option>	
+									<option>InActive</option>
+									<option>Pending</option>
+								</select></td>
+						</tr>
+						<tr>
+							<td>0004</td>
+							<td><a href = "#">Dev</a></td>
+							<td> <select>
+									<option>Active</option>	
+									<option>InActive</option>
+									<option>Pending</option>
+								</select></td>
+						</tr>
+					</table> 	
+			</body>
+	</html> 

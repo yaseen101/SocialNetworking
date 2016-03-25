@@ -1,0 +1,77 @@
+	
+	
+	 .container {
+                        margin-top:125px;
+                        margin-left:220px;
+                        border:1px solid grey;
+                        width:463px;
+			height:321px;
+                       }
+
+	  .LabelText  {
+			   margin-top:50px;
+			   margin-left:70px;
+			}
+	.buttons   {
+			margin-top:70px;
+			margin-left:150px;
+			}
+
+	 #TitleSubmit {    
+		        margin-top:10px;
+                        border-width:1px;
+                        border-style:solid;
+                        border-radius:5px;
+                        padding:7px 5px;
+                        font-size:15px;
+                        color:white;
+                        background-color:red;
+                        width:80px;
+                        }
+
+	 #TitleClear {    
+		        margin-top:10px;
+			margin-left:35px;
+                        border-width:1px;
+                        border-style:solid;
+                        border-radius:5px;
+                        padding:7px 5px;
+                        font-size:15px;
+                        color:white;
+                        background-color:blue;
+                        width:80px;
+                        }
+
+	  #TitleDisscus {
+                        margin-top:10px;
+                        margin-left:20px;
+                        padding:5px;
+                        }
+
+	  #TitleDesc {
+                        margin-top:10px;
+                        margin-left:74px;
+                        padding:5px;
+                        }
+
+	  #TitleTag {
+                        margin-top:10px;
+                        margin-left:119px;
+                        padding:5px;
+                        }
+		
+            #lbl1	{
+			margin-top:10px;
+			margin-left:05px;
+			font-size:15px;
+			}
+            #lbl2	{
+			margin-top:10px;
+			margin-left:05px;
+			font-size:15px;
+			}
+            #lbl3	{
+			margin-top:10px;
+			margin-left:05px;
+			font-size:15px;
+			}

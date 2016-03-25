@@ -1,0 +1,45 @@
+<html>
+	<head>
+		<link href = "CSS/signUp.css" type = "text/css" rel= "stylesheet" />
+	<script type = "text/javascript">
+		function Namevalidate(){
+                 var mid = document.getElementById("NickName");
+                 var letters = /^[A-Za-z]+$/;
+			if(mid.value.match(letters))
+                            {
+                                return true;
+                   		/*document.getElementById('MessageName').style.visibility = "hidden" ;*/
+                        }
+                        
+                        else
+                        	{
+				return false;
+                   		document.getElementById('MessageName').innerHTML = "Your Name is Contain numbers or Spcial Characters" ;
+                    		}
+		}
+
+	</script>	
+	</head>
+	<body>
+		<div class = "container">
+		  <div class = "LabelText">
+		
+		    <label>NickName:</label>
+		    <input type = "text" id ="NickName"  placeholder ="NickName" onblur="return Namevalidate()" /><span id = "MessageName"></span><br/>
+
+		    <label>Mobile:</label>
+		    <input type = "text" id ="SignMobile"  placeholder ="Mobile Number" /><br/>
+
+		    <label>Email:</label>
+		    <input type = "text" id ="SignEmail"  placeholder ="Email ID" /><br/>
+
+		    </div>
+		    <div class = "buttons">
+		     <input type = "button" id ="SignSubmit" value = "Submit" />
+
+		     <input type = "button" id ="SignClear" value = "Clear" />
+		   </div>
+	       </div>
+	</body>
+</html>
+

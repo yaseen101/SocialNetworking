@@ -1,0 +1,126 @@
+    		body{
+		      background-image: url("/Social_Network/IMAGE/social_img.jpg");
+		}	
+		
+		.container {
+                        margin-top:200px;
+                        margin-left:340px;
+                        border:1px solid grey;
+                        width:463px;
+                        margin:200px auto auto auto;
+                        }
+
+                #btn1 { margin-top:10px;
+                        border-width:1px;
+                        border-style:solid;
+                        border-radius:5px;
+                        padding:13px 10px;
+                        font-size:15px;
+                        color:white;
+                        background-color:red;
+                        width:180px;
+                        }
+
+                #btn2 { margin-top:20px;
+                        border-width:1px;
+                        border-style:solid;
+                        border-radius:5px;
+                        padding:13px 10px;
+                        font-size:15px;
+                        color:white;
+                        background-color:darkslateblue;
+                        width:180px;
+                        }
+
+                #btn3 {
+                        margin-top:20px;
+                        border-width:1px;
+                        border-style:solid;
+                        border-radius:5px;
+                        padding:13px 10px;
+                        font-size:15px;
+                        color:white;
+                        background-color:darkturquoise;
+                        width:180px;
+                         }
+	
+                #btn4  {
+                        margin-top:25px;
+                        border-width:1px;
+                        border-style:solid;
+                        border-radius:5px;
+                        padding:5px;
+                        font-size:15px;
+                        color:white;
+                        background-color:blue;
+                        width:60px;
+                        float:right;
+                        }
+
+                #btn5  {
+                        margin-top:9px;
+			margin-left:36px;
+                        border-width:1px;
+                        border-style:solid;
+                        border-radius:5px;
+                        padding:5px;
+                        font-size:15px;
+                        color:white;
+                        background-color:blue;
+                        width:60px;
+                       
+                        }
+
+
+                .loginWith {
+                        width: 187px;
+                         float: left;
+                        margin-top:20px;
+                         margin-left:20px;
+                         margin-bottom:20px;
+                        }
+                .login {
+                        float: left;
+                        width: 200px;
+                        margin-top: 20px;
+                        border-left-style: groove;
+                        margin-left: 21px;
+                        }
+                #lg {
+                        font-weight:900;
+                        margin-left:10px;
+                        font-variant:small-caps;
+                        }
+                #tx1 {
+                        margin-top:10px;
+                        margin-left:20px;
+                        padding:5px;
+                        }
+                #ch {
+                        margin-top:10px;
+                         margin-left:20px;
+                        font-size:15px;
+                    }
+
+                span {
+                        margin-top:10px;
+                        font-size:13px;
+                        }
+                #ps {
+                        margin-top:10px;
+                        margin-left:20px;
+                        padding:5px;
+                        }
+                #a1 {
+                        margin-top:10px;
+                        margin-left:20px;
+                        font-size:10px;
+                        color:grey;
+                        }
+
+                .clear{
+                        clear:both;
+                        }
+
+                                                                                                       82,1-8        47%
+                  
